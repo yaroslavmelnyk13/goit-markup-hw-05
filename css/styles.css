@@ -730,7 +730,8 @@ address {
     transition: transform 250ms linear;
 }
 
-.project-item:hover .projects-top-text {
+.project-link:hover .projects-top-text,
+.project-link:focus .projects-top-text {
     transform: translateY(0);
 }
 /*backdrop*/
